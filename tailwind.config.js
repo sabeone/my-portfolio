@@ -25,6 +25,9 @@ module.exports = {
             h5: {
               color: "#34d399",
             },
+            strong: {
+              color: "#e5e7eb",
+            },
             a: {
               color: "#a5b4fc",
               "&:hover": {

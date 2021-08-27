@@ -32,10 +32,11 @@ export default function SinglePost() {
       .catch(console.error);
   }, [slug]);
 
-  if (!singlePost) return <div>Loading...</div>;
+  if (!singlePost)
+    return <div className="bg-rich-black text-green-400 m-8">Loading...</div>;
 
   return (
-    <main className="bg-rich-black min-h-screen p-12">
+    <main className="bg-rich-black min-h-screen p-12 lg:p-36">
       <article className="container mx-auto bg-rich-black border-2 border-green-400 rounded-lg">
         <header className="relative">
           <div className="absolute h-full w-full flex items-center justify-center">

@@ -8,10 +8,10 @@ function Post() {
   useEffect(() => {
     sanityClient
       .fetch(
-        `*[_type == "post"]{
+        `*[_type == "post" && (category == "app dev" || category == "game dev" || category == "extended reality")]{
             title, 
             slug,
-            projectType,
+            category,
             mainImage{
                 asset->{
                     _id,
@@ -52,7 +52,7 @@ function Post() {
                     </span>
                     <span className="black absolute h-full flex justify-start items-end">
                       <h4 className="text-gray-900 italic font-blog px-1.5 py-1 bg-white group-hover:bg-green-400 bg-opacity-75 rounded-r">
-                        {post.projectType}
+                        {post.category}
                       </h4>
                     </span>
                   </span>

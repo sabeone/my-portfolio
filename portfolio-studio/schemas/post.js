@@ -1,6 +1,6 @@
 export default {
   name: "post",
-  title: "Project",
+  title: "Post",
   type: "document",
   fields: [
     {
@@ -26,14 +26,16 @@ export default {
       },
     },
     {
-      name: "projectType",
-      title: "Project Type",
+      name: "category",
+      title: "Category",
       type: "string",
       options: {
         list: [
           { value: "extended reality", title: "Extended Reality" },
           { value: "game dev", title: "Game Dev" },
           { value: "app dev", title: "App Dev" },
+          { value: "creative writing", title: "Creative Writing" },
+          { value: "article", title: "Article" },
         ],
       },
     },

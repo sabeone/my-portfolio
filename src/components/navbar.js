@@ -29,6 +29,13 @@ function navbar() {
           >
             Projects
           </NavLink>
+          <NavLink
+            to="/writing"
+            className="inline-flex items-center py-0 px-3 my-4 text-gray-200 hover:text-green-200"
+            activeClassName="text-green-400"
+          >
+            Writing
+          </NavLink>
         </nav>
         <div className="inline-flex py-0 px-3 my-4">
           <SocialIcon
