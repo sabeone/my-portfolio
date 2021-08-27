@@ -1,5 +1,4 @@
 import React from "react";
-import video from "../assets/home-video-bg.mp4";
 
 function Experience() {
   return (
@@ -30,6 +29,7 @@ function Experience() {
                 className="text-indigo-200 hover:text-indigo-400 underline"
                 href="https://www.storyfit.com/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 StoryFit's
               </a>{" "}
@@ -61,6 +61,7 @@ function Experience() {
                 className="text-indigo-200 hover:text-indigo-400 underline"
                 href="https://www.instagram.com/gtlanguageinst/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Instagram
               </a>
@@ -69,6 +70,7 @@ function Experience() {
                 className="text-indigo-200 hover:text-indigo-400 underline"
                 href="https://twitter.com/gtlanguageinst"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Twitter
               </a>
@@ -77,6 +79,7 @@ function Experience() {
                 className="text-indigo-200 hover:text-indigo-400 underline"
                 href="https://www.facebook.com/LanguageInstitute"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Facebook
               </a>
@@ -85,6 +88,7 @@ function Experience() {
                 className="text-indigo-200 hover:text-indigo-400 underline"
                 href="https://www.linkedin.com/company/gtlanguageinst/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 LinkedIn
               </a>
@@ -122,6 +126,7 @@ function Experience() {
                 className="text-indigo-200 hover:text-indigo-400 underline"
                 href="https://www.instagram.com/epic_intentions/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Instagram
               </a>{" "}
@@ -130,6 +135,7 @@ function Experience() {
                 className="text-indigo-200 hover:text-indigo-400 underline"
                 href="https://epicintentions.medium.com/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Medium
               </a>{" "}
@@ -157,6 +163,7 @@ function Experience() {
                 className="text-indigo-200 hover:text-indigo-400 underline"
                 href="https://www.padv.org/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Partnership Against Domestic Violence
               </a>
@@ -174,6 +181,7 @@ function Experience() {
                 className="text-indigo-200 hover:text-indigo-400 underline"
                 href="https://avlf.org/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Atlanta Volunteer Lawyer Foundation's
               </a>{" "}
@@ -190,6 +198,7 @@ function Experience() {
                 className="text-indigo-200 hover:text-indigo-400 underline"
                 href="https://www.southface.org/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Southface
               </a>{" "}
@@ -206,6 +215,7 @@ function Experience() {
                 className="text-indigo-200 hover:text-indigo-400 underline"
                 href="https://www.foundstages.org/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Found Stages
               </a>
@@ -221,6 +231,7 @@ function Experience() {
                 className="text-indigo-200 hover:text-indigo-400 underline"
                 href="https://georgiaasylum.org/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Georgia Asylum & Immigration Network
               </a>
@@ -249,6 +260,7 @@ function Experience() {
                 className="text-indigo-200 hover:text-indigo-400 underline"
                 href="https://erato.gatech.edu/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 literary magazine
               </a>
