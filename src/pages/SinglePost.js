@@ -52,7 +52,7 @@ export default function SinglePost() {
             style={{ height: "400px" }}
           />
         </header>
-        <div className="text-gray-100 post-headings px-16 lg:px-48 py-12 lg:py-20 prose lg:prose-xl max-w-full">
+        <div className="text-gray-200 post-headings px-16 lg:px-48 py-12 lg:py-20 prose lg:prose-xl max-w-full">
           <BlockContent
             blocks={singlePost.body}
             projectId="d8magmr0"

@@ -31,6 +31,9 @@ module.exports = {
                 color: "#818cf8",
               },
             },
+            blockquote: {
+              color: "#e5e7eb",
+            },
           },
         },
       },

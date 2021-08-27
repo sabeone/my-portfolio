@@ -28,12 +28,9 @@ function Post() {
   return (
     <main className="bg-rich-black min-h-screen p-12">
       <section className="container mx-auto">
-        <h1 className="text-5xl text-green-400 font-bold flex justify-center">
-          Blog Post Page
+        <h1 className="text-5xl text-green-400 font-bold flex justify-center mb-10">
+          Projects
         </h1>
-        <h2 className="text-lg text-gray-300 flex justify-center mb-12">
-          Welcome to my page of blog posts
-        </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {postData &&
             postData.map((post, index) => (

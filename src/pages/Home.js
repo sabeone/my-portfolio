@@ -16,7 +16,7 @@ function Home() {
         <h1 className="text-center text-6xl text-green-400 font-bold leading-none lg:leading-snug home-name">
           Sabrina Wilson
         </h1>
-        <p className="text-base text-justify mx-16 my-12 text-gray-300">
+        <p className="text-base text-justify mx-16 my-12 text-gray-200">
           I'm a recent Georgia Tech grad with a background in interactive design
           and experimental media. I have worked on a variety of projects
           including video games, interactive stories, virtual/mixed reality
@@ -25,16 +25,6 @@ function Home() {
           RTS game being developed by MultiPath LLLP.
         </p>
       </section>
-      {/* <section className="relative flex justify-center min-h-screen pt-12 lg:pt-64 px-8">
-        <p className="text-sm text-gray-300">
-          I'm a recent Georgia Tech grad with a background in interactive design
-          and experimental media. I have worked on a variety of projects
-          including video games, interactive stories, virtual/mixed reality
-          experiences, and UI/UX prototypes. I am currently working on a virtual
-          reality movie and making social media content for Tiny Kingdoms, an
-          RTS game being developed by MultiPath LLLP.
-        </p>
-      </section> */}
     </main>
   );
 }

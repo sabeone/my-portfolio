@@ -10,21 +10,21 @@ function navbar() {
           <NavLink
             to="/"
             exact
-            className="inline-flex items-center py-0 px-3 my-4 text-gray-300 hover:text-green-200"
+            className="inline-flex items-center py-0 px-3 my-4 text-gray-200 hover:text-green-200"
             activeClassName="text-green-400"
           >
             Home
           </NavLink>
           <NavLink
-            to="/about"
-            className="inline-flex items-center py-0 px-3 my-4 text-gray-300 hover:text-green-200"
+            to="/experience"
+            className="inline-flex items-center py-0 px-3 my-4 text-gray-200 hover:text-green-200"
             activeClassName="text-green-400"
           >
-            About
+            Experience
           </NavLink>
           <NavLink
             to="/projects"
-            className="inline-flex items-center py-0 px-3 my-4 text-gray-300 hover:text-green-200"
+            className="inline-flex items-center py-0 px-3 my-4 text-gray-200 hover:text-green-200"
             activeClassName="text-green-400"
           >
             Projects
